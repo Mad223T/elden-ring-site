@@ -1,0 +1,505 @@
+/* ================================================= */
+/*  BASE GLOBALE */
+/* ================================================= */
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+background:#0b0b0f;
+color:#e6d3a3;
+font-family:Arial, sans-serif;
+margin:0;
+}
+
+/* ================================================= */
+/*  TITRES ET TEXTES */
+/* ================================================= */
+
+h2,h3{
+font-family:'Courier New', monospace;
+font-style:italic;
+font-weight:400;
+color: #d4af37;
+}
+
+h1{
+font-family:'Courier New', monospace;
+font-style:italic;
+font-weight:400;
+color: white;
+}
+
+h1{
+background-image:url(images/fond_ecran.webp);
+height:300px;
+background-size:cover;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+p{
+font-family:"Lobster", sans-serif;
+color:#cfcfcf;
+text-align:justify;
+max-width:900px;
+margin:30px 0 30px 60px;
+}
+
+/* ================================================= */
+/*  SECTIONS */
+/* ================================================= */
+
+section{
+background:#14141c;
+padding:30px;
+border-radius:15px;
+}
+
+/* ================================================= */
+/*  BOUTONS LORE style Elden Ring jaune */
+/* ================================================= */
+
+.lore-nav{
+list-style:none;
+padding:0;
+margin:20px 0;
+display:flex;
+gap:15px;
+flex-wrap:wrap;
+}
+
+.elden-btn{
+text-decoration:none;
+color:#d4af37;
+border:1px solid #d4af37;
+padding:10px 18px;
+border-radius:8px;
+font-family:"Cinzel", serif;
+transition:0.3s;
+display:inline-block;
+}
+
+.elden-btn:hover{
+background:#d4af37;
+color:#0b0b0f;
+transform:translateY(-2px);
+box-shadow:0 0 12px rgba(212,175,55,0.5);
+}
+
+.btn-top{
+display:inline-block;
+margin-top:25px;
+padding:8px 16px;
+color:#fda901;
+border:1px solid #fda901;
+border-radius:6px;
+text-decoration:none;
+font-size:14px;
+transition:0.3s;
+}
+
+.btn-top:hover{
+background:#fda901;
+color:#000;
+box-shadow:0 0 15px rgba(253,169,1,0.4);
+}
+
+/* ================================================= */
+/*  NAVBAR ELDEN RING */
+/* ================================================= */
+
+.navbar{
+top:0;
+left:0;
+width:100%;
+background:#0b0b0f;
+padding:12px 25px;
+z-index:1000;
+}
+
+.navbar a{
+color:#d4af37;
+text-decoration:none;
+font-family:"Cinzel", serif;
+padding:8px 16px;
+border:1px solid #d4af37;
+border-radius:8px;
+transition:0.3s;
+}
+
+.navbar a:hover{
+background:#d4af37;
+color:#0b0b0f;
+transform:translateY(-2px);
+box-shadow:0 0 12px rgba(212,175,55,0.5);
+}
+
+.card-nav{
+display:flex;
+justify-content:center;
+gap:20px;
+margin-top:40px;
+flex-wrap:wrap;
+}
+
+
+/* ================================================= */
+/*  BOUTONS NAVIGATION BOSS */
+/* ================================================= */
+
+.boss-buttons{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+margin:50px 0;
+}
+
+.boss-buttons a{
+text-decoration:none;
+color:#e6d3a3;
+border:1px solid #d4af37;
+padding:12px 22px;
+border-radius:6px;
+font-family:'Courier New', monospace;
+transition:all .3s ease;
+}
+
+.boss-buttons a:hover{
+background:#d4af37;
+color:#0b0b0f;
+transform:scale(1.05);
+box-shadow:0 0 10px #d4af37;
+}
+
+/* ================================================= */
+/*  CARD BOSS */
+/* ================================================= */
+
+.boss{
+text-align:center;
+max-width:900px;
+margin:150px auto;
+display:block;
+box-shadow:
+0 0 12px rgba(212,175,55,0.35),
+0 0 35px rgba(184,134,11,0.25);
+}
+
+.boss img{
+width:600px;
+border-radius:15px;
+}
+
+.boss h2{
+margin-top:25px;
+font-size:32px;
+}
+
+.boss p{
+color:white;
+margin-top:20px;
+line-height:1.6;
+}
+
+#malenia{
+box-shadow: 0 0 25px rgba(255,107,129,0.35);
+}
+
+
+
+/* ================================================= */
+/*  COULEURS TITRES BOSS */
+/* ================================================= */
+
+.margit-title{color:#d4af37;}
+.godrick-title{color:#d4af37;}
+.rennala-title{color:#7da7ff;}
+.radahn-title{color:#c94a3a;}
+.astel-title{color:#9b7fd4}
+.morgott-title{color:#d4af37;}
+.geant_feu-title{color:#c43b2f;}
+.maliketh-title{color:#5a0f14;}
+.godfrey-title{color:#b89a4a;}
+.radagon-title{color:#e6d8a8;}
+.rykard-title{color:#d2691e;}
+.mohg-title{color:#7a0c14;}
+.malenia-title{color:#ff6b81;}
+.placidusax-title{color: #f6e7b7}
+
+/*================================================== */
+/* IMAGES                                            */
+/*================================================== */
+
+.images-lore img{
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.texte-lore{
+    max-width: 900px;   
+    width: 100%;
+}
+
+/* ================================================= */
+/*  CARD LORE moteur de mon espacement
+/* ================================================= */
+
+.container-lore{
+display:flex;
+flex-direction:column;
+align-items:center;
+gap:140px;          /* espace entre les cards */
+padding:80px 0;
+}
+
+.card-lore{
+background:#14141c;
+padding:40px;
+border-radius:18px;
+max-width:1100px;        /*le style de mes cartes*/
+width:90%;
+margin:auto;
+box-shadow:
+0 0 12px rgba(212,175,55,0.35),
+0 0 35px rgba(184,134,11,0.25);
+}
+
+/* espace interne en l'image le titre et le texte */
+.card-lore h2{
+margin-top:20px;
+margin-bottom:20px;
+}
+
+/* corrige ton texte pour qu’il reste centré dans la card */
+.card-lore p{
+margin:0;
+}
+
+.card-lore-buttons{
+display:flex;
+justify-content:center;
+gap:20px;
+margin:40px 0;
+flex-wrap:wrap;
+}
+
+
+
+
+/* ======================================================
+   RESPONSIVE OFFICIEL – CORRECTION MOBILE PROPRE
+   (AUCUN CHANGEMENT DESIGN DESKTOP)
+====================================================== */
+
+
+/* ================= TABLETTES & TELEPHONES ================= */
+@media screen and (max-width:768px){
+
+/* --- reset largeur globale --- */
+html, body{
+width:100%;
+overflow-x:hidden;
+}
+
+
+/* --- containers principaux --- */
+.hero,
+.card-lore,
+.boss,
+section,
+main{
+width:100%;
+max-width:100%;
+box-sizing:border-box;
+}
+
+
+/* --- NAVBAR --- */
+.navbar nav{
+flex-wrap:wrap;
+justify-content:center;
+gap:10px;
+}
+
+
+/* --- TITRES --- */
+h1{
+font-size:24px;
+text-align:center;
+}
+
+h2{
+font-size:18px;
+text-align:center;
+}
+
+
+/* --- TEXTE (corrige le margin-left qui casse tout) --- */
+p{
+margin:20px auto !important;
+max-width:95% !important;
+padding:0 10px;
+}
+
+
+/* --- IMAGES (retire les largeurs fixes) --- */
+img{
+max-width:100%;
+height:auto;
+display:block;
+margin:auto;
+}
+
+.boss img{
+width:100% !important;
+}
+
+
+/* --- BOUTONS --- */
+.elden-btn{
+display:block;
+width:95%;
+margin:10px auto;
+text-align:center;
+}
+
+
+/* --- LISTE DES BOSS --- */
+.boss-buttons{
+display:flex;
+flex-direction:column;
+align-items:center;
+gap:12px;
+}
+
+}
+
+
+/* ================= PETITS TELEPHONES ================= */
+@media screen and (max-width:480px){
+
+h1{
+font-size:22px;
+}
+
+h2{
+font-size:16px;
+}
+
+p{
+font-size:13px;
+line-height:1.6;
+}
+
+.elden-btn{
+width:100%;
+}
+
+}
+
+
+
+.card-lore{
+transition: transform 0.3s ease;
+transform-style: preserve-3d;
+}
+
+
+.site-footer{
+text-align:center;
+padding:20px;
+margin-top:50px;
+font-size:14px;
+color:#c9b37a;
+border-top:1px solid rgba(212,175,55,0.3);
+}
+
+
+body{
+min-height:100vh;
+display:flex;
+flex-direction:column;
+}
+
+main{
+flex:1;
+}
+
+.footer-links{
+display:flex;
+justify-content:center;
+gap:20px;
+margin-bottom:15px;
+flex-wrap:wrap;
+}
+
+.mentions-container{
+max-width:900px;
+margin:auto;
+padding:60px 20px;
+}
+
+/* ===============================
+   HALO ORDRE D'OR MENU MOBILE
+=============================== */
+
+.navbar.open{
+box-shadow:0 0 40px rgba(255,215,120,0.3);
+backdrop-filter:blur(6px);
+transition:0.3s;
+}
+
+/* ===================================
+   FIX NAVBAR MOBILE - PRIORITÉ FORTE
+=================================== */
+
+@media screen and (max-width:768px){
+
+/* cache le menu normal */
+.nav-links{
+display:none !important;
+}
+
+/* affiche hamburger */
+.menu-toggle{
+display:block !important;
+margin:10px auto;
+}
+
+/* menu ouvert */
+.nav-links.active{
+display:flex !important;
+flex-direction:column;
+align-items:center;
+gap:15px;
+background:rgba(10,10,15,0.95);
+border-top:1px solid #d4af37;
+padding:20px;
+}
+
+}
+
+/* ================================
+   PAGE MENTIONS LEGALES
+================================ */
+
+.mentions-container{
+max-width:900px;
+margin:auto;
+padding:60px 20px;
+}
+
+.mentions-container h2{
+margin-top:30px;
+color:#d4af37;
+}
+
+.mentions-back{
+text-align:center;
+margin-top:40px;
+}

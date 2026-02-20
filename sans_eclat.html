@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elden Ring</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,
+500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <canvas id="gold-bg"></canvas>
+
+<header class="navbar">
+
+<button class="menu-toggle">
+<span></span>
+<span></span>
+<span></span>
+</button>
+
+<nav class="nav-links">
+        <a href="index.html">| Retour au jeu |</a>
+        <a href="lore.html">| Lore | </a>
+        <a href="boss.html">| Boss Majeur | </a>
+        <a href="dlc.html">| shadow of the erdtree | </a>
+</nav>
+
+</header>
+
+<header class="hero">
+<h1>Sans-Eclat</h1>
+</header>
+
+<div id="top"></div>
+
+<p>
+    Dans les Terres Intermédiaires, certains naissent bénis par la grâce… d’autres reviennent des cendres pour la défier. Cette page explore le destin du Sans-Éclat : ses origines, ses rencontres, ses épreuves et les choix capables de façonner l’ordre même du monde. De l’exil jusqu’au trône de Seigneur d’Elden, chaque fragment de son histoire révèle une vérité plus vaste — celle d’un être que rien ne prédestinait à devenir une légende.
+</p>
+
+
+
+
+<div class="card-lore-buttons">
+
+    <a href="#origine" class="elden-btn">Origines</a>
+    <a href="#serment" class="elden-btn">Le premier Serment</a>
+    <a href="#renna" class="elden-btn">L'appel de la Lune</a>
+    <a href="#voilorage" class="elden-btn">Les Portes du Jugement</a>
+    <a href="#voyage" class="elden-btn">Le Seuil des Damnés</a>
+    <a href="#chateau" class="elden-btn">Le Château aux Mille Blessures</a>
+    <a href="#heritier" class="elden-btn">L'Héritier Défiguré </a>
+    <a href="#briser" class="elden-btn">Après la Couronne Brisée</a>
+    <a href="#Lucaria" class="elden-btn">Académie Raya Lucaria</a>
+    <a href="#reine" class="elden-btn">La Reine Déchue de la Lune</a>
+    <a href="#etoiles" class="elden-btn">Sous le Regard des Étoiles</a>
+    <a href="#ranni" class="elden-btn">ranni l'Héritière des etoiles</a>
+    <a href="#radahn" class="elden-btn">Radahn fléau des astres</a>
+    <a href="#nokron" class="elden-btn">La Chute des Étoiles</a>
+    <a href="#cite" class="elden-btn">Nokron la cité oubliée</a>
+    <a href="#blaidd" class="elden-btn">l'ombre fidèle</a>
+    <a href="#lame" class="elden-btn">La Lame Tueuse de Doigts — Le Serment Brisé</a>
+    <a href="#tour" class="elden-btn">Le Passage Stellaire</a>
+    <a href="#ainsel" class="elden-btn">Sous les Étoiles Mortes</a>
+    <a href="#funeste" class="elden-btn">L’Ombre Funeste</a>
+    <a href="#lac" class="elden-btn">Le Lac de Putréfaction</a>
+    <a href="#autel" class="elden-btn">Autel Lunaire — Le Serment des Étoiles</a>
+    <a href="#silence" class="elden-btn">Le silence après les étoiles</a>
+    <a href="#plateau" class="elden-btn">La Marche des Héritiers</a>
+    <a href="#lyendell" class="elden-btn">La Capitale Dorée</a>
+    <a href="#gardien" class="elden-btn">Le dernier gardien</a>
+    <a href="#defaite" class="elden-btn">Le Trône Refusé</a>
+    <a href="#geant" class="elden-btn">La Route du Sacrifice</a>
+    <a href="#geant_de_feu" class="elden-btn">Gardien de la Flamme Interdite</a>
+    <a href="#forge" class="elden-btn">Le Serment Brisé</a>
+    <a href="#farum_azula" class="elden-btn">Le Temps Fracturé</a>
+    <a href="#maliketh" class="elden-btn">La Lame Noire</a>
+    <a href="#mort" class="elden-btn">Mort retrouvée</a>
+    <a href="#briser" class="elden-btn">Le Royaume Brisé</a>
+    <a href="#godfrey" class="elden-btn">Le retour du Roi</a>
+    <a href="#hoarah" class="elden-btn">Le Guerrier Libéré</a>
+    <a href="#radagon" class="elden-btn">Le Serment Éternel</a>
+    <a href="#elden" class="elden-btn">L’Écho d’un Dieu</a>
+    <a href="#choix" class="elden-btn">Le Silence Avant le Choix</a>
+    <a href="#fracture" class="elden-btn">Restaurer l’Ordre</a>
+    <a href="#age" class="elden-btn">Le pacte de ranni</a>
+    <a href="#exalter" class="elden-btn">L’Anéantissement</a>
+    <a href="rencontres-chemin" class="elden-btn">Échos d’un Monde Brisé</a>
+    <a href="#seigneur-sang" class="elden-btn">Une Volonté Cachée</a>
+    <a href="#voie-blaspheme" class="elden-btn">Rejeter les Dieux</a>
+    <a href="#dragon-ancien" class="elden-btn">Avant l’Arbre-Monde</a>
+    <a href="#malenia" class="elden-btn">La Fleur Écarlate</a>
+</div>
+
+
+
+
+<main class="container-lore">
+
+    <!-- CARD ORIGINE -->
+    <section class="card-lore" id="origine">
+
+        <div class="images-lore">
+            <img src="images/sanseclat..webp">
+        </div>
+
+        <h2> Origines :</h2>
+
+        <div class="texte-lore">
+            <p>
+        Banni autrefois des Terres Intermédiaires, le Sans-Éclat n’est ni un héros choisi par les dieux ni un héritier légitime du pouvoir. Il est l’ombre d’un âge passé, un guerrier privé de la grâce dorée, condamné à errer loin de l’Arbre-Monde après la chute de Godfrey et l’exil de ses semblables. Pourtant, lorsque l’Anneau d’Elden se brise et que l’ordre du monde vacille, une lumière ancienne renaît en lui : l’appel du retour.
+
+        Guidé par une grâce fragile que seuls certains peuvent encore voir, le Sans-Éclat traverse des royaumes brisés, affronte des demi-dieux déchus et rassemble les Grandes Runes abandonnées. Contrairement aux anciens seigneurs qui régnaient par naissance ou par foi, il avance par la volonté seule — apprenant, échouant, renaissant encore et encore. Là où les autres étaient liés à un destin imposé, lui forge sa propre voie.
+
+        Son voyage n’est pas seulement une quête de puissance. Chaque combat est une question posée au monde : faut-il restaurer l’ordre ancien, le briser, ou laisser émerger une ère totalement nouvelle ? En vainquant ceux qui se dressent sur sa route — de Margit à Radagon lui-même — le Sans-Éclat devient une anomalie vivante, capable d’accomplir ce qu’aucun dieu ni demi-dieu n’a réussi : atteindre le cœur même de l’Elden Ring.
+
+        Certains diront qu’il est celui qui a “no-hit” les dieux, traversant la guerre des Éclats comme une lame silencieuse. Mais derrière cette image de guerrier invincible se cache surtout une vérité plus profonde : le Sans-Éclat n’est pas destiné à gagner… il choisit simplement de continuer à avancer, jusqu’à devenir l’arbitre final du destin des Terres Intermédiaires.
+
+        Et lorsque la Bête d’Elden tombe enfin, ce n’est plus un exilé qui se tient devant l’Arbre-Monde — mais un seigneur capable de décider quelle fin mérite réellement ce monde.
+            </p>
+        </div>
+
+
+<a href="#top" class="btn-top">⬆ Remonter</a>
+    </section>
+
+
+
+
+    <!-- CARD MELINA -->
+    <section class="card-lore" id="serment">
+
+        <div class="images-lore">
+            <img src="images/melina.jpg">
+        </div>
+
+        <h2>Le premier serment:</h2>
+
+        <div class="texte-lore">
+            <p>
+                Après son retour dans les Terres Intermédiaires, le Sans-Éclat n’avance pas seul bien longtemps. Au détour des ruines baignées par la Grâce, une femme mystérieuse apparaît : Mélina. Ni véritable alliée, ni simple spectatrice, elle propose un pacte discret — guider le Sans-Éclat jusqu’à l’Arbre-Monde. Par ce serment silencieux, elle lui accorde Torrent, fidèle monture capable de traverser des terres brisées, et devient la voix qui éclaire son chemin. À travers ses paroles, le monde cesse d’être un chaos incompréhensible : elle révèle l’existence des demi-dieux, héritiers des Grandes Runes, et laisse entrevoir une destinée plus grande — celle de prétendre au trône de Seigneur d’Elden.
+
+                Guidé par la Grâce, le Sans-Éclat comprend alors que la route n’est plus une simple errance, mais une ascension. Mélina ne donne pas d’ordres ; elle suggère, pousse à devenir plus fort, à se dresser face à ceux qui protègent l’ordre ancien. Ainsi, la lumière dorée mène vers Voilorage, première étape du jugement, où Margit attend comme une épreuve imposée par le monde lui-même. Ce chemin marque l’entrée du Sans-Éclat dans la voie officielle des prétendants : un voyage où chaque victoire rapproche de l’Arbre-Monde, et où chaque combat décide du futur des Terres Intermédiaires.            </p>
+        </div>
+        
+<a href="#top" class="btn-top">⬆ Remonter</a>
+    </section>
+
+    <!--CARD RENNA-->
+    <section class="card-lore" id="renna">
+
+        <div class="images-lore">
+            <img src="images/fmlgngpvcacmvf4.jpg">
+        </div>
+
+        <h2>L'Appel de la Lune :</h2>
+            <p>
+                Alors que la nuit tombe sur les plaines balayées par la Grâce, une lueur bleu lunaire attire le regard du Sans-Éclat. Intrigué par cette présence silencieuse, il décide de la suivre jusqu’aux ruines familières de l’église d’Elleh. Là, entre les ombres et la lumière froide des étoiles, une femme vêtue de blanc l’attend. À première vue, elle ressemble à une sorcière — calme, distante, presque irréelle. Se présentant sous le nom de Renna, elle observe le Sans-Éclat avec une curiosité discrète, comme si son destin l’intéressait déjà. Sans révéler ses véritables intentions, elle lui confie une cloche ancienne capable d’appeler des esprits à ses côtés, laissant derrière elle une question silencieuse : existe-t-il une autre voie que celle tracée par la Grâce ?
+            </p>
+<a href="#top" class="btn-top">⬆ Remonter</a>
+    </section>
+
+    <!--CARD VOILORAGE-->
+
+    <section class="card-lore" id="voilorage">
+
+        <div class="images-lore">
+            <img src="images/voilorage.jpg">
+        </div>
+
+        <h2>Les Portes du Jugement :</h2>
+
+        <p>
+            Guidé par la Grâce après son pacte avec Mélina, le Sans-Éclat quitte les plaines ouvertes pour suivre une route où le vent semble murmurer des avertissements oubliés. Au loin, les remparts de Voilorage se dressent comme une cicatrice dans le ciel, forteresse massive gardant l’accès aux hauteurs de l’Arbre-Monde. Chaque pas vers ses portes alourdit l’air, comme si le monde lui-même observait l’intrus venu réclamer un destin qui ne lui appartient pas.
+
+Les soldats déchus et les créatures brisées qui hantent les abords du château ne sont que les premiers signes d’un royaume en déclin. Derrière ces murs, un héritier défiguré règne dans la peur et la folie… mais avant même de franchir le seuil, une présence ancienne veille dans l’ombre. La Grâce mène ici pour une raison : Voilorage n’est pas seulement une destination. C’est une épreuve, un passage où les Sans-Éclat cessent d’être des errants pour devenir des prétendants au trône.
+        </p>
+<a href="#top" class="btn-top">⬆ Remonter</a>
+    </section>
+
+    <!--CARD VOYAGE-->
+    <section class="card-lore" id="voyage">
+        
+        <div class="images-lore">
+            <img src="images/1403908.jpg">
+        </div>
+
+        <h2>Le Seuil des Damnés :</h2>
+
+        <p>
+            Alors que le Sans-Éclat approche enfin des remparts de Voilorage, le vent se tait et l’atmosphère se fige dans une lourdeur presque irréelle. Les torches vacillent, les pierres anciennes semblent retenir leur souffle… et une silhouette surgit de l’ombre. Margit, le Déchu, apparaît comme une condamnation vivante, gardien d’un ordre ancien qui refuse de laisser les exilés prétendre à la couronne. Ses paroles résonnent comme un verdict, rappelant au Sans-Éclat sa faiblesse et son insignifiance face aux héritiers de l’Arbre-Monde.
+
+Ce combat dépasse la simple épreuve physique. Chaque coup échangé est une lutte contre le destin imposé, un refus silencieux de rester à la place qu’on lui a assignée. Margit n’est pas seulement un ennemi : il incarne la volonté du monde de rejeter ceux qui osent rêver trop haut. Mais lorsque la lame du Sans-Éclat se dresse malgré la peur et la fatigue, une vérité s’impose — franchir ce seuil, c’est abandonner l’errance et accepter de devenir une menace pour les demi-dieux eux-mêmes.        </p>
+ <a href="#top" class="btn-top">⬆ Remonter</a>  
+</section>
+
+    <!--CARD CHEATEAU-->
+    <section class="card-lore" id="chateau">
+
+        <div class="images-lore">
+            <img src="images/capture-decran-2022-02-10-140706_98xu.png">
+        </div>
+
+        <h2>Le Château aux Mille Blessures :</h2>
+
+        <p>
+            Une fois Margit vaincu, le silence retombe sur les remparts de Voilorage, lourd et presque méfiant. Le Sans-Éclat franchit enfin les portes du château, mais au lieu d’un royaume glorieux, il découvre une forteresse mourante. Les pierres sont fendues, les bannières déchirées par le vent, et chaque couloir résonne d’un passé qui refuse de disparaître. Ici, la grandeur de l’Ordre d’Or n’est plus qu’un souvenir gravé dans la poussière.
+
+Des soldats brisés patrouillent sans but, des créatures difformes errent dans les ombres, témoins silencieux d’une folie qui a transformé Voilorage en mausolée vivant. Les murs eux-mêmes semblent porter les cicatrices d’un roi incapable d’accepter sa faiblesse. Plus le Sans-Éclat avance, plus une vérité s’impose : ce château n’est pas seulement une étape… il est le reflet de l’âme de celui qui y règne.
+
+Au détour des escaliers effondrés et des terrasses battues par les rafales, une présence invisible observe chaque mouvement. Le vent transporte des échos lointains — des cris, des ordres, le bruit métallique d’un pouvoir arraché plutôt que mérité. Tout mène vers le cœur du château, là où attend un héritier qui refuse d’être oublié. Voilorage n’est plus un bastion… c’est une blessure ouverte, et le Sans-Éclat s’enfonce toujours plus profondément vers celui qui en est la cause.        </p>
+<a href="#top" class="btn-top">⬆ Remonter</a>
+    </section>
+
+    <!--CARD HERITIER-->
+    <section class="card-lore" id="heritier">
+
+        <div class="images-lore">
+            <img src="images/Jhk3ye4D6gDjkPovhLiqcQ.jpg">
+        </div>
+
+        <h2>L'Héritier Défiguré :</h2>
+
+        <p>
+            Alors que les derniers échos du vent se dissipent dans les hauteurs de Voilorage, le Sans-Éclat atteint enfin une vaste cour abandonnée, où la pierre elle-même semble ployer sous un poids invisible. Au centre, des silhouettes brisées témoignent d’un règne fondé sur la peur plutôt que sur la noblesse. L’air devient lourd, presque irrespirable… comme si le château refusait de révéler ce qui se cache en son cœur.
+
+Puis une voix s’élève, déformée par la rage et le désespoir. Un corps massif émerge de l’ombre, assemblage grotesque de chair et d’ambition volée. Là où devrait se tenir un roi ne se dresse qu’un héritier défiguré, obsédé par une grandeur qu’il n’a jamais possédée. Chaque pas qu’il fait résonne comme un défi lancé au destin lui-même. À cet instant, le Sans-Éclat comprend que Voilorage n’était qu’un prélude — et que la véritable épreuve commence maintenant.
+        </p>
+<a href="#top" class="btn-top">⬆ Remonter</a>
+    </section>
+
+
+        <section class="card-lore" id="briser">
+
+        <div class="images-lore">
+            <img src="images/1651858493-8703-card.webp">
+        </div>
+
+        <h2>Après la Couronne Brisée :</h2>
+
+        <p>
+            La chute de Godrick plonge Voilorage dans un silence lourd, comme si le château lui-même refusait de croire à la fin de son règne. Sa Grande Rune, encore imprégnée d’un pouvoir instable, marque une étape irréversible : le Sans-Éclat n’est plus un simple errant, mais un prétendant capable d’arracher la puissance des demi-dieux. Pourtant, derrière la victoire, rien ne semble réparé — les couloirs restent marqués par la folie et la décadence, témoins d’un ordre déjà condamné.
+
+Au-delà des remparts, le paysage s’ouvre enfin. Les falaises laissent place à des eaux silencieuses et à une lumière froide qui se reflète à perte de vue : Liurnia des Lacs. Ici, la guerre paraît lointaine, presque irréelle… mais la Grâce continue d’appeler, guidant le Sans-Éclat vers de nouveaux mystères. Dans le calme trompeur des étendues brumeuses, une présence ancienne attend déjà, prête à juger ceux qui osent avancer plus loin.
+        </p>
+<a href="#top" class="btn-top">⬆ Remonter</a>
+    </section>
+
+        <section class="card-lore" id="Lucaria">
+
+        <div class="images-lore">
+            <img src="images/raya-lucaria-in-game-screenshot-1.avif">
+        </div>
+
+        <h2> Raya Lucaria :</h2>
+
+        <p>
+            Au cœur des eaux immobiles de Liurnia se dresse Raya Lucaria, ancienne fierté des mages et symbole d’un savoir autrefois respecté. Suspendue entre la brume et la pierre, l’académie semble hors du temps, comme si la guerre des demi-dieux n’avait jamais vraiment franchi ses portes. Pourtant, derrière ses arches élégantes et ses salles baignées d’une lumière froide, quelque chose s’est brisé.
+
+Les érudits qui parcourent ses couloirs ne sont plus des chercheurs, mais des silhouettes vidées de leur volonté, répétant des rituels oubliés dans un silence pesant. La magie qui protège ces murs n’inspire pas la sagesse… mais l’isolement. Chaque pas du Sans-Éclat résonne comme une intrusion dans un monde figé, dominé par une reine qui ne règne plus vraiment.
+
+Plus il avance, plus l’académie révèle une vérité troublante : ici, le pouvoir ne s’exprime pas par la force brute, mais par la manipulation du réel lui-même. Et quelque part au sommet, derrière des illusions fragiles et des chants anciens, une présence lunaire attend celui qui a déjà fait tomber un héritier de l’Ordre d’Or.
+        </p>
+<a href="#top" class="btn-top">⬆ Remonter</a>
+    </section>
+
+        <section class="card-lore" id="reine">
+
+        <div class="images-lore">
+            <img src="images/rennala!.jpg">
+        </div>
+
+        <h2>La Reine Déchue de la Lune :</h2>
+
+        <p>
+            Au sommet silencieux de Raya Lucaria, loin du fracas des guerres et des ambitions des demi-dieux, se tient Rennala, autrefois reine des pleines lunes et maîtresse incontestée de l’académie. Son règne n’est plus celui d’une souveraine redoutée, mais celui d’une âme enfermée dans ses propres souvenirs. Entourée de chants fragiles et d’une magie douce presque irréelle, elle semble davantage protéger un rêve brisé que défendre un véritable trône.
+
+Contrairement aux tyrans déchus rencontrés jusque-là, Rennala ne se dresse pas contre le Sans-Éclat avec la rage d’un conquérant. Son pouvoir s’exprime dans l’illusion, dans la renaissance et dans un savoir ancien qui refuse de disparaître. Chaque éclat de lumière lunaire révèle une vérité plus triste : l’académie qu’elle dirigeait autrefois s’est détournée d’elle, laissant derrière elle une reine isolée, figée dans un passé qui ne reviendra plus.
+
+Lorsque le combat s’achève et que la magie se dissipe, il ne reste ni triomphe ni haine — seulement le silence d’une ère révolue. Sa Grande Rune ne symbolise pas la domination, mais la transformation : un pouvoir lié à la renaissance et au changement. En quittant Raya Lucaria, le Sans-Éclat comprend que tous les demi-dieux ne sont pas des monstres… certains sont simplement les vestiges d’un monde qui a perdu son sens.
+        </p>
+<a href="#top" class="btn-top">⬆ Remonter</a>
+    </section>
+
+    <section class="card-lore" id="etoiles">
+
+        <div class="images-lore">
+            <img src="images/The_Three_sister.webp">
+        </div>
+
+        <h2>Sous le Regard des Étoiles :</h2>
+
+        <p>
+            Lorsque la magie lunaire de Rennala s’éteint et que l’académie retrouve son silence, quelque chose change dans l’air. La victoire du Sans-Éclat ne résonne pas comme une conquête, mais comme l’ouverture d’un chemin invisible. Au-delà des eaux de Liurnia, une présence observe depuis les ombres, guidée non par la Grâce dorée… mais par la lumière froide des étoiles.
+
+C’est ici que les murmures autour de Ranni prennent un sens nouveau. Contrairement aux héritiers de l’Ordre d’Or, elle ne cherche pas à restaurer un monde ancien — elle souhaite s’en libérer. Les fragments de vérité laissés derrière la chute de Rennala révèlent un passé plus sombre : une nuit où des lames noires ont frappé le cœur même de la lignée divine, et où le destin des demi-dieux a été brisé pour toujours.
+
+Le Sans-Éclat comprend alors que toutes les routes ne mènent pas à l’Arbre-Monde. Certaines s’éloignent de la lumière pour suivre un chemin plus silencieux, plus dangereux… un chemin où la volonté personnelle peut défier les lois imposées par les dieux eux-mêmes. Tandis que les étoiles commencent à s’agiter au-dessus de Liurnia, une nouvelle voie s’ouvre — celle d’une sorcière qui observe depuis la nuit, prête à changer le destin des Terres Intermédiaires.
+        </p>
+<a href="#top" class="btn-top">⬆ Remonter</a>
+    </section>
+
+        <section class="card-lore" id="ranni">
+
+        <div class="images-lore">
+            <img src="images/ranni.jpeg">
+        </div>
+
+        <h2> Ranni l’Héritière des Étoiles :</h2>
+
+        <p>
+            Derrière le nom de Renna se cachait en réalité Ranni la Sorcière, empyréenne destinée à devenir un jour l’héritière de l’Ordre d’Or. Si elle se présente d’abord sous une fausse identité, ce n’est pas par jeu… mais pour observer le Sans-Éclat sans révéler ses véritables intentions. Dans un monde où la Volonté Suprême manipule les destins, Ranni avance dans l’ombre, refusant de suivre le chemin imposé par les dieux.
+
+Bien avant l’arrivée du Sans-Éclat, elle fut l’une des figures centrales de la Nuit des Couteaux Noirs. En volant une part de la Rune de la Mort, elle orchestre l’assassinat de Godwyn le Doré — non par cruauté, mais pour briser les chaînes de l’Ordre d’Or. En détruisant son propre corps empyréen et en transférant son âme dans une poupée, elle échappe au contrôle divin, devenant une entité libre… mais condamnée à agir depuis les ténèbres.
+
+Lorsque le Sans-Éclat la retrouve à Liurnia, Ranni ne cherche pas un guerrier aveugle à la Grâce. Elle recherche un partenaire capable de choisir sa propre voie. Elle lui confie alors une mission : retrouver la lame tueuse de doigts à Nokron, affronter les ombres qui la traquent et libérer son destin des Deux Doigts. Chaque épreuve rapproche le Sans-Éclat d’une vérité troublante — il ne combat plus pour restaurer l’ordre ancien, mais pour permettre la naissance d’un nouvel âge.
+
+Le pacte de consort n’est pas une simple alliance. En offrant la Lame tueuse de doigts et en poursuivant sa quête jusqu’au bout, le Sans-Éclat devient celui qui marchera à ses côtés dans l’Âge des Étoiles. Là où les autres demi-dieux cherchent le pouvoir, Ranni cherche l’éloignement : un monde libéré de la Volonté Suprême, guidé non par la Grâce dorée, mais par une lumière froide et infinie.
+        </p>
+<a href="#top" class="btn-top">⬆ Remonter</a>
+    </section>
+
+        <section class="card-lore" id="caelid">
+
+        <div class="images-lore">
+            <img src="images/caelid.webp">
+        </div>
+
+        <h2>Caelid la terre morte :</h2>
+
+        <p>
+           Guidé par les échos laissés par la quête de Ranni, le Sans-Éclat s’aventure vers des terres où la vie semble avoir abandonné toute résistance. Caelid n’est plus qu’un royaume blessé, rongé par une maladie ancienne qui transforme la pierre, le ciel et les créatures elles-mêmes. Les arbres se tordent sous une lumière rougeâtre, et chaque pas soulève une poussière lourde, comme si la guerre refusait de s’éteindre.
+
+Ces terres portent les cicatrices d’un affrontement que même les demi-dieux n’ont pas su conclure. Jadis, le général Radahn croisa la lame de Malenia, la Lame de Miquella, dans une bataille si violente que la Pourriture Écarlate fut libérée, engloutissant Caelid tout entier. Aucun vainqueur ne fut proclamé. Radahn survécut… mais son esprit fut lentement consumé, condamné à errer dans un royaume qu’il avait juré de protéger.
+
+Au loin, des guerriers se rassemblent autour d’un festival étrange, non pour conquérir… mais pour offrir une fin digne à une légende devenue prisonnière de sa propre puissance. Dans ce monde figé entre gloire passée et déchéance, le Sans-Éclat comprend que certains combats ne servent pas à gagner — seulement à mettre fin à une tragédie. 
+        </p>
+<a href="#top" class="btn-top">⬆ Remonter</a>
+    </section>
+
+            <section class="card-lore" id="radahn">
+
+        <div class="images-lore">
+            <img src="images/radahn festival.jpg">
+        </div>
+
+        <h2> Radahn, Fléau des astres :</h2>
+
+        <p>
+            Au cœur du désert écarlate, le festival de Radahn rassemble des combattants venus de toutes les Terres Intermédiaires. Autrefois général invincible et héros admiré, Radahn n’est plus qu’une ombre dévorée par la folie. Rongé par la pourriture laissée par son duel contre Malenia, il erre désormais sous un ciel figé, tenant encore les étoiles prisonnières par une volonté qui refuse de mourir. Certains murmurent qu’avant sa chute, nul demi-dieu ne pouvait rivaliser avec lui sur un champ de bataille.
+
+Lorsque le Sans-Éclat rejoint l’affrontement, le combat dépasse toute logique humaine. Ce n’est pas une simple bataille… mais une tentative collective de libérer le monde d’un poids trop lourd. Sous les éclats d’armes et les météores qui déchirent le ciel, Radahn avance comme une force de la nature, souvenir vivant d’une époque où la guerre était encore synonyme de grandeur.
+
+Puis vient l’instant où le géant tombe enfin. Le silence s’abat, et les étoiles reprennent leur course, déchirant la nuit dans une pluie de lumière. Ce moment ne marque pas seulement la fin d’un général — il ouvre une voie nouvelle vers les profondeurs oubliées, révélant un chemin caché vers Nokron. Sans le savoir encore, le Sans-Éclat vient de changer le destin du monde… et d’approcher un peu plus la vérité que Ranni attend depuis l’ombre.
+        </p>
+<a href="#top" class="btn-top">⬆ Remonter</a>
+    </section>
+
+            <section class="card-lore" id="nokron">
+
+        <div class="images-lore">
+            <img src="images/Nokron_IG_Loc_Post-Rahdan.webp">
+        </div>
+
+        <h2>La Chute des Étoiles :</h2>
+
+        <p>
+            Lorsque Radahn tombe enfin sous les coups du festival, le ciel semble se déchirer lui-même. Les étoiles, longtemps retenues par la volonté du général, reprennent leur course dans un fracas silencieux. Une lumière traverse la nuit comme une lame céleste… puis une météorite s’écrase violemment sur l’Entre-Terre, brisant la surface du monde et ouvrant une blessure profonde dans la terre.
+
+Là où se dressaient autrefois des ruines paisibles, un cratère immense révèle un passage oublié, plongeant dans des ténèbres anciennes. Le Sans-Éclat comprend alors que la chute de Radahn n’était pas seulement une victoire — elle était une clé. Sous ses pieds s’ouvre désormais un chemin vers une cité perdue que peu d’êtres ont foulée : Nokron, la ville éternelle, cachée loin du regard des dieux.
+        </p>
+<a href="#top" class="btn-top">⬆ Remonter</a>
+    </section>
+
+            <section class="card-lore" id="cite">
+
+        <div class="images-lore">
+            <img src="images/3rs0xbsa9ss81.png">
+        </div>
+
+        <h2>Nokron la cité oubliée :</h2>
+
+        <p>
+            En descendant dans les profondeurs ouvertes par la météorite, le Sans-Éclat découvre un monde suspendu hors du temps. Nokron n’est pas une simple ruine… mais une ville figée sous un faux ciel étoilé, où la lumière semble provenir d’un autre âge. Les pierres racontent une civilisation ancienne, rejetée par l’Ordre d’Or pour avoir défié les lois imposées par les dieux.
+
+Les ennemis qui hantent ces lieux ne ressemblent à rien de connu : silhouettes d’argent mouvantes, ombres silencieuses et créatures façonnées par une magie oubliée. Chaque pas dans Nokron donne l’impression d’avancer dans un rêve brisé, un écho d’un monde qui refusait de se soumettre à la volonté divine.
+
+Guidé par la promesse faite à Ranni, le Sans-Éclat poursuit sa descente jusqu’à découvrir un artefact interdit — la Lame tueuse de doigts. Plus qu’une arme, elle représente un défi direct envers l’autorité céleste. En la récupérant, il comprend que son rôle dépasse désormais la simple quête de puissance : il devient un acteur d’un plan ancien, destiné à changer l’équilibre même des Terres Intermédiaires.
+        </p>
+<a href="#top" class="btn-top">⬆ Remonter</a>
+    </section>
+
+            <section class="card-lore" id="blaidd">
+
+        <div class="images-lore">
+            <img src="images/Blaidd-main-v2.webp">
+        </div>
+
+        <h2>l'ombre fidèle :</h2>
+
+        <p>
+            Au cœur des profondeurs oubliées, une présence familière réapparaît : Blaidd, le loup à la loyauté inébranlable, guerrier choisi pour servir Ranni depuis bien avant l’arrivée du Sans-Éclat. Autrefois allié silencieux, il apparaît désormais plus sombre, comme s’il portait le poids d’un destin qu’il ne peut fuir. Entre devoir et volonté personnelle, Blaidd avance aux côtés du Sans-Éclat, guidé par une fidélité qui dépasse la simple loyauté.
+
+Mais derrière ses paroles calmes se cache une vérité plus lourde. Créé pour protéger l’ordre divin autant que sa maîtresse, Blaidd est prisonnier d’une nature qu’il ne peut renier. Plus la quête de Ranni progresse, plus son regard trahit une lutte intérieure — celle d’un guerrier tiraillé entre l’amour qu’il porte à sa dame et les chaînes invisibles qui cherchent à le ramener vers les dieux qu’elle a rejetés.
+
+Dans les ruines silencieuses de Nokron, le Sans-Éclat comprend que toutes les alliances ne sont pas éternelles. Certaines sont promises à une fin tragique… même lorsque la loyauté est sincère.
+        </p>
+<a href="#top" class="btn-top">⬆ Remonter</a>
+    </section>
+
+            <section class="card-lore" id="lame">
+
+        <div class="images-lore">
+            <img src="images/lame.png">
+        </div>
+
+        <h2>La Lame Tueuse de Doigts — Le Serment Brisé :</h2>
+
+        <p>
+            Au plus profond de la cité éternelle repose un artefact que les dieux eux-mêmes auraient voulu voir disparaître : la Lame tueuse de doigts. Forgée pour défier les messagers célestes, cette arme n’est pas destinée aux guerres ordinaires. Elle incarne un refus absolu — celui de plier face à la Volonté Suprême.
+
+Lorsque le Sans-Éclat s’en empare et la remet à Ranni, le pacte entre eux franchit un point de non-retour. Ce geste ne scelle pas seulement une alliance… il rompt définitivement les liens avec l’ordre ancien. Dans le silence qui suit, Ranni disparaît, laissant derrière elle une route nouvelle et incertaine, guidée non par la Grâce dorée, mais par la lumière froide des étoiles.
+
+À partir de cet instant, le Sans-Éclat ne marche plus seulement pour devenir Seigneur d’Elden. Il avance sur un chemin capable de changer le destin même des Terres Intermédiaires.
+        </p>
+<a href="#top" class="btn-top">⬆ Remonter</a>
+    </section>
+
+    <section class="card-lore" id="tour">
+
+        <div class="images-lore">
+            <img src="images/1772558-tour-de-renna-article_cover_bd-1.webp">
+        </div>
+
+        <h2>La Tour Renna — Le Passage Stellaire :</h2>
+
+        <p>
+            Après avoir remis la Lame tueuse de doigts, un silence étrange s’installe. Ranni disparaît, laissant derrière elle une tour autrefois scellée. Lorsque le Sans-Éclat franchit ses portes, l’air lui-même semble vibrer d’une magie ancienne. Au sommet, un portail scintille, suspendu entre deux mondes — ni entièrement réel, ni totalement céleste.
+
+En l’activant, le Sans-Éclat abandonne momentanément les terres connues pour suivre une voie tracée par les étoiles elles-mêmes. Ce n’est plus un chemin guidé par la Grâce dorée… mais par la volonté silencieuse de Ranni, qui l’entraîne vers des profondeurs oubliées où le ciel semble inversé.
+        </p>
+<a href="#top" class="btn-top">⬆ Remonter</a>
+    </section>
+
+    <section class="card-lore" id="Ainsel">
+
+        <div class="images-lore">
+            <img src="images/ainseil.webp">
+        </div>
+
+        <h2>Ainsel — Sous les Étoiles Mortes :</h2>
+
+        <p>
+            Transporté dans les profondeurs d’Ainsel, le Sans-Éclat découvre un monde souterrain baigné d’une lumière froide. Des rivières argentées serpentent entre des ruines anciennes, comme si une civilisation entière avait été abandonnée sous un faux firmament. Ici, le silence est lourd, presque sacré.
+
+Au détour d’un sanctuaire oublié, il trouve une petite poupée à l’apparence familière — Ranni elle-même, dissimulée dans un corps fragile. Sa voix, faible mais déterminée, révèle que le voyage n’est pas terminé. Une ombre poursuit ses pas, envoyée pour briser sa liberté.
+        </p>
+<a href="#top" class="btn-top">⬆ Remonter</a>
+    </section>
+
+    <section class="card-lore" id="funeste">
+
+        <div class="images-lore">
+            <img src="images/ombre.png">
+        </div>
+
+        <h2>L’Ombre Funeste :</h2>
+
+        <p>
+            Guidé par la voix de la poupée, le Sans-Éclat avance jusqu’à rencontrer une silhouette corrompue qui lui barre la route. L’Ombre Funeste, reflet déformé d’une loyauté brisée, apparaît comme un rappel cruel des chaînes que les dieux imposent à ceux qui tentent de s’en libérer.
+
+Le combat est bref mais lourd de sens. Lorsque l’ombre tombe, elle laisse derrière elle une clé silencieuse — preuve que le chemin choisi par Ranni continue de défier l’autorité céleste. Chaque pas rapproche désormais le Sans-Éclat d’un lieu où la mort et la renaissance se confondent.
+        </p>
+<a href="#top" class="btn-top">⬆ Remonter</a>
+    </section>
+
+       <section class="card-lore" id="lac">
+
+        <div class="images-lore">
+            <img src="images/lac.jpg">
+        </div>
+
+        <h2>Le Lac de Putréfaction :</h2>
+
+        <p>
+            Au-delà des ruines s’étend une mer écarlate où la pourriture elle-même semble respirer. Le Sans-Éclat traverse lentement ces eaux toxiques, chaque mouvement luttant contre une corruption qui cherche à engloutir tout ce qui vit. Le silence y est presque total, comme si même les étoiles hésitaient à regarder ce lieu maudit.
+
+Les piliers antiques et les mécanismes oubliés témoignent d’une civilisation qui tenta autrefois de contenir ce fléau. Mais rien ne peut arrêter le temps… et au fond du lac, une présence ancienne attend, figée dans l’obscurité.
+        </p>
+<a href="#top" class="btn-top">⬆ Remonter</a>
+    </section>
+
+       <section class="card-lore" id="lac">
+
+        <div class="images-lore">
+            <img src="images/astel.jpg">
+        </div>
+
+        <h2>Astel — Rejeton du Néant :</h2>
+
+        <p>
+            Au terme du chemin, le Sans-Éclat se tient face à une entité venue d’un autre ciel. Astel n’est ni dieu ni demi-dieu, mais une créature cosmique qui semble incarner la peur elle-même. Son corps scintille comme une constellation brisée, et chaque mouvement déchire la réalité autour de lui.
+
+Le combat dépasse la simple épreuve physique : c’est une confrontation avec un fragment du vide. Lorsque Astel tombe, le chemin vers la surface s’ouvre enfin, révélant un plateau baigné de lumière lunaire. Là, au sommet du monde, attend la conclusion silencieuse du pacte avec Ranni… et une vérité que peu de Sans-Éclat auront le privilège de voir.        </p>
+<a href="#top" class="btn-top">⬆ Remonter</a>
+    </section>
+
+       <section class="card-lore" id="autel">
+
+        <div class="images-lore">
+            <img src="images/elden-ring-autel-lunaire-031.jpg">
+        </div>
+
+        <h2>Autel Lunaire — Le Serment des Étoiles :</h2>
+
+        <p>
+            Au-delà d’Astel, le Sans-Éclat découvre un plateau baigné d’une lumière froide, presque irréelle. Ici, le ciel semble plus proche, comme si les étoiles observaient en silence le destin des mortels. Au sommet des ruines oubliées, Ranni attend — immobile, détachée du monde qu’elle a choisi de rejeter.
+
+Le pacte se scelle sans éclat de guerre ni triomphe bruyant. En acceptant de devenir son consort, le Sans-Éclat embrasse une voie guidée non par la Grâce dorée, mais par une volonté froide et silencieuse. Pourtant, même dans ce serment lunaire, une question demeure : peut-il vraiment abandonner l’appel de l’Arbre-Monde ?
+        </p>
+<a href="#top" class="btn-top">⬆ Remonter</a>
+    </section>
+
+       <section class="card-lore" id="silence">
+
+        <div class="images-lore">
+            <img src="images/hq720.jpg">
+        </div>
+
+        <h2>Le silence après les étoiles :</h2>
+
+        <p>
+            Lorsque la quête de Ranni touche à sa fin, un calme étrange s’installe. Les batailles cosmiques s’effacent derrière lui, laissant le Sans-Éclat face à un monde qui continue d’exister sans attendre ses choix. Les étoiles ont repris leur course… mais la guerre des demi-dieux n’est pas terminée.
+
+La Grâce dorée, longtemps ignorée, réapparaît comme une flamme vacillante. Elle ne force pas… elle rappelle simplement que le trône d’Elden reste vacant, et que le destin du monde dépasse toute alliance individuelle.
+        </p>
+<a href="#top" class="btn-top">⬆ Remonter</a>
+    </section>
+
+       <section class="card-lore" id="plateau">
+
+        <div class="images-lore">
+            <img src="">
+        </div>
+
+        <h2>Le Plateau Altus — La Marche des Héritiers :</h2>
+
+        <p>
+            En quittant les terres lunaires, le Sans-Éclat gravit les routes anciennes menant au Plateau Altus. Là, la lumière dorée revient dominer l’horizon, contrastant avec les ténèbres cosmiques qu’il vient de traverser. Les chevaliers tombés, les statues brisées et les routes abandonnées témoignent d’un royaume qui attend un nouveau seigneur.
+
+Chaque pas vers le nord rapproche le Sans-Éclat du cœur du pouvoir. Les ennemis deviennent plus féroces, les gardiens plus nombreux… comme si le monde lui-même testait sa détermination avant de lui ouvrir les portes sacrées.
+        </p>
+<a href="#top" class="btn-top">⬆ Remonter</a>
+    </section>
+
+           <section class="card-lore" id="lyndell">
+
+        <div class="images-lore">
+            <img src="images/lyendell.webp">
+        </div>
+
+        <h2>Leyndell — La Capitale Dorée :</h2>
+
+        <p>
+            Au sommet des marches anciennes s’élève Leyndell, la capitale royale, figée dans une splendeur mélancolique. Les murs d’or ne brillent plus comme autrefois ; ils semblent observer chaque intrus avec une méfiance silencieuse. Ici, l’Ordre d’Or montre ses dernières forces, protégeant un trône déjà condamné par le temps.
+
+En traversant ses avenues immenses, le Sans-Éclat comprend que tous ses pas — des ruines de Limgrave aux étoiles de Nokron — l’ont conduit vers ce moment. Le cœur du monde se tient devant lui… et quelqu’un veille encore sur ses portes.
+        </p>
+<a href="#top" class="btn-top">⬆ Remonter</a>
+    </section>
+
+           <section class="card-lore" id="gardien">
+
+        <div class="images-lore">
+            <img src="images/morgott.jpeg">
+        </div>
+
+        <h2>Le dernier gardien :</h2>
+
+        <p>
+            Avant d’atteindre l’Arbre-Monde, une silhouette familière surgit une dernière fois. Morgott, roi rejeté mais gardien fidèle, attend au sommet des marches sacrées. Contrairement aux autres demi-dieux, il ne combat pas pour la gloire ou le pouvoir — mais pour préserver un ordre qu’il sait déjà condamné.
+
+Le duel devient une confrontation entre deux visions du monde : celle d’un roi qui protège un rêve brisé, et celle d’un Sans-Éclat qui avance malgré tout. Lorsque Morgott tombe enfin, les portes du destin s’ouvrent… révélant que même les élus ne peuvent franchir l’Arbre-Monde sans en payer le prix.
+        </p>
+<a href="#top" class="btn-top">⬆ Remonter</a>
+    </section>
+
+           <section class="card-lore" id="defaites">
+
+        <div class="images-lore">
+            <img src="images/téléchargement.jpg">
+        </div>
+
+        <h2>Le Trône Refusé :</h2>
+
+        <p>
+            Lorsque Morgott s’effondre enfin au sommet des marches sacrées, un silence lourd envahit la capitale dorée. Celui qui s’opposait au Sans-Éclat n’était pas un conquérant… mais le dernier gardien d’un ordre déjà condamné. Dans ses derniers mots résonne une vérité amère : même les plus fidèles serviteurs de la Grâce savaient que l’âge de l’Arbre-Monde touchait à sa fin.
+
+Guidé par l’espoir d’un trône enfin accessible, le Sans-Éclat avance vers le cœur de l’Arbre sacré. Pourtant, au moment où la victoire semble proche, une vision brutale se dresse devant lui. D’immenses épines dorées barrent l’entrée, refusant le passage à celui qui venait réclamer son destin. L’Arbre-Monde lui-même semble rejeter tout nouveau seigneur.
+
+La Grâce ne s’éteint pas… elle change simplement de direction. Une nouvelle voie apparaît alors, froide et lointaine — vers les terres gelées où brûle encore une flamme capable de consumer même l’or éternel. Le Sans-Éclat comprend que la guerre des demi-dieux n’était qu’un prélude. Pour atteindre l’Elden Ring, il devra désormais marcher vers un sacrifice que nul roi avant lui n’a osé accepter.
+        </p>
+<a href="#top" class="btn-top">⬆ Remonter</a>
+    </section>
+
+           <section class="card-lore" id="geant">
+
+        <div class="images-lore">
+            <img src="images/geant.avif">
+        </div>
+
+        <h2>Les Monts des Géants :</h2>
+
+        <p>
+            Guidé par la Grâce, le Sans-Éclat quitte la chaleur mourante de Leyndell pour atteindre les hauteurs glacées des Monts des Géants. Là où le vent hurle sans fin, les ruines racontent l’histoire d’un peuple brisé par une guerre oubliée. Les géants ont disparu, mais leur présence plane encore sur ces terres figées dans le temps.
+
+Chaque pas vers le sommet rapproche le Sans-Éclat d’une vérité inquiétante : pour briser les épines de l’Arbre-Monde, il faudra embraser une flamme que même les dieux craignaient. La marche n’est plus celle d’un conquérant… mais celle d’un être prêt à porter le poids d’un sacrifice nécessaire.
+        </p>
+<a href="#top" class="btn-top">⬆ Remonter</a>
+    </section>
+
+           <section class="card-lore" id="geant_de_feu">
+
+        <div class="images-lore">
+            <img src="images/1568933-geant-de-feu-article_cover_bd-1.webp">
+        </div>
+
+        <h2>Le Géant de Feu — Gardien de la Flamme Interdite :</h2>
+
+        <p>
+            Au sommet des montagnes se dresse le dernier héritier d’un peuple condamné. Le Géant de Feu protège une flamme ancienne, vestige d’une époque où l’Ordre d’Or n’était pas encore absolu. Son corps porte les marques d’une guerre ancienne, et chaque pas résonne comme un défi lancé aux prétendants du trône.
+
+Le combat n’est pas seulement une épreuve de force. En affrontant le géant, le Sans-Éclat affronte les conséquences des choix de Marika elle-même. Lorsque la créature tombe, la flamme interdite s’éveille… ouvrant la voie vers un acte capable de changer le destin du monde.
+        </p>
+<a href="#top" class="btn-top">⬆ Remonter</a>
+    </section>
+
+           <section class="card-lore" id="forge">
+
+        <div class="images-lore">
+            <img src="images/the-giants-forge-gold-and-immortality-v0-mp86m1rdfcvf1.webp">
+        </div>
+
+        <h2>La Forge des Géants — Le Serment Brisé :</h2>
+
+        <p>
+            Face à la forge ancestrale, le Sans-Éclat comprend enfin le véritable prix de son ascension. L’Arbre-Monde ne pourra être atteint qu’à travers le feu. Dans le silence glacé, Mélina accomplit son rôle avec une détermination calme, acceptant de devenir l’étincelle d’un nouveau destin.
+
+Lorsque les flammes s’élèvent, le ciel lui-même semble trembler. L’or éternel commence à se consumer, et une ère entière s’approche de sa fin. Le Sans-Éclat n’est plus seulement un voyageur… il devient celui qui accepte de brûler le monde pour en révéler la vérité
+        </p>
+<a href="#top" class="btn-top">⬆ Remonter</a>
+    </section>
+
+           <section class="card-lore" id="farum_azula">
+
+        <div class="images-lore">
+            <img src="images/farum azula.gif">
+        </div>
+
+        <h2>Farum Azula en Ruine — Le Temps Fracturé :</h2>
+
+        <p>
+            Transporté dans une tempête hors du temps, le Sans-Éclat découvre Farum Azula, une cité suspendue entre passé et futur. Les dragons anciens veillent encore sur ses fragments brisés, et le vent emporte les souvenirs d’un âge oublié par l’Ordre d’Or.
+
+Ici, la réalité elle-même semble instable. Chaque escalier mène vers une époque différente, chaque bataille rapproche le Sans-Éclat d’une vérité plus sombre. L’air est chargé d’une puissance ancienne… celle de la Mort Destinée, scellée depuis des siècles.
+        </p>
+<a href="#top" class="btn-top">⬆ Remonter</a>
+    </section>
+
+    <section class="card-lore" id="maliketh">
+
+        <div class="images-lore">
+            <img src="images/maliketh-black-blade-elden-ring-wallpaper-4k.jpg">
+        </div>
+
+        <h2>Maliketh — La Lame Noire :</h2>
+
+        <p>
+            Au cœur des ruines attend Maliketh, gardien fidèle et porteur d’un fardeau que nul autre ne pouvait supporter. Derrière sa rage se cache la responsabilité d’avoir protégé la Mort Destinée, une force que même les dieux craignaient de voir libérée.
+
+Le duel dépasse toute rivalité ordinaire. Chaque mouvement de la Lame Noire tranche le temps lui-même, rappelant que la mort véritable a longtemps été bannie des Terres Intermédiaires. Lorsque Maliketh tombe, le monde change irréversiblement. La Mort Destinée est libérée… et Leyndell s’apprête à devenir un royaume de cendres.
+        </p>
+<a href="#top" class="btn-top">⬆ Remonter</a>
+    </section>
+
+    <section class="card-lore" id="mort">
+
+        <div class="images-lore">
+            <img src="images/mort destiné.jpg">
+        </div>
+
+        <h2>La Mort Retrouvée :</h2>
+
+        <p>
+            Lorsque Maliketh tombe et que la Lame Noire se brise, quelque chose change dans l’air lui-même. La Mort Destinée, longtemps scellée par la volonté divine, se répand à nouveau dans les Terres Intermédiaires. Le feu qui consumait l’Arbre-Monde s’intensifie, et la capitale dorée n’est plus qu’une ombre brûlante. Le Sans-Éclat n’avance plus vers une promesse… mais vers une fin inévitable.
+        </p>
+<a href="#top" class="btn-top">⬆ Remonter</a>
+    </section>
+
+        <section class="card-lore" id="briser">
+
+        <div class="images-lore">
+            <img src="images/lyendell cendres.webp">
+        </div>
+
+        <h2>Leyndell en Cendres — Le Royaume Brisé :</h2>
+
+        <p>
+            De retour dans la capitale, le Sans-Éclat ne retrouve plus la splendeur dorée qu’il avait traversée autrefois. Leyndell est désormais ensevelie sous une mer de cendres, comme si le monde lui-même pleurait la chute de l’Ordre d’Or. Les rues silencieuses témoignent d’une guerre déjà perdue, et chaque pas rapproche le Sans-Éclat du cœur d’un royaume condamné.
+
+La lumière de l’Arbre-Monde brûle différemment, plus froide, presque étrangère. Là où les chevaliers protégeaient jadis un rêve éternel, il ne reste plus que des vestiges figés dans la poussière.
+        </p>
+<a href="#top" class="btn-top">⬆ Remonter</a>
+    </section>
+
+        <section class="card-lore" id="godfrey">
+
+        <div class="images-lore">
+            <img src="images/hq720 (1).jpg">
+        </div>
+
+        <h2>Godfrey, Premier Seigneur d’Elden — Le Retour du Roi :</h2>
+
+        <p>
+            Au sommet des ruines apparaît une silhouette imposante : Godfrey, premier Seigneur d’Elden, revenu pour réclamer une dernière fois le trône qui lui fut arraché. Contrairement aux demi-dieux déchus, il ne combat pas par ambition… mais par droit ancien.
+
+Le duel devient une épreuve d’honneur entre deux prétendants au même destin. Lorsque l’armure tombe et que Hoarah Loux révèle sa véritable nature, la bataille se transforme en un affrontement brutal, rappelant une époque où la force seule décidait du sort des royaumes.
+        </p>
+<a href="#top" class="btn-top">⬆ Remonter</a>
+    </section>
+
+        <section class="card-lore" id="hoarah">
+
+        <div class="images-lore">
+            <img src="images/hoarah lou.avif">
+        </div>
+
+        <h2>Hoarah Loux — Le Guerrier Libéré :</h2>
+
+        <p>
+            Dépouillé de son titre royal, Godfrey abandonne toute retenue pour redevenir Hoarah Loux, le guerrier primordial. Chaque coup porté résonne comme une tempête, et le sol lui-même semble se briser sous la violence du combat.
+
+Ce n’est plus un roi qui défend un ordre… mais un combattant qui cherche un adversaire digne de lui. En triomphant, le Sans-Éclat dépasse les légendes anciennes et s’approche enfin du cœur de l’Elden Ring.
+        </p>
+<a href="#top" class="btn-top">⬆ Remonter</a>
+    </section>
+
+        <section class="card-lore" id="radagon">
+
+        <div class="images-lore">
+            <img src="images/radagon.jpg">
+        </div>
+
+        <h2>Radagon de l’Ordre d’Or — Le Serment Éternel :</h2>
+
+        <p>
+           Derrière les portes de l’Arbre-Monde attend Radagon, incarnation de la volonté dorée. Sa présence n’est pas celle d’un roi déchu, mais d’un symbole vivant d’un ordre qui refuse de disparaître. Chaque attaque est empreinte d’une lumière sacrée, comme si le monde lui-même tentait de préserver son équilibre.
+
+Le combat devient une confrontation entre la Grâce et la volonté humaine. Lorsque Radagon vacille, une vérité plus ancienne se révèle — l’ordre qu’il protège n’était qu’une façade pour une force encore plus vaste. 
+        </p>
+<a href="#top" class="btn-top">⬆ Remonter</a>
+    </section>
+
+        <section class="card-lore" id="elden">
+
+        <div class="images-lore">
+            <img src="images/brendan-normore-elden-beast.jpg">
+        </div>
+
+        <h2>La Bête d’Elden — L’Écho d’un Dieu :</h2>
+
+        <p>
+            Des profondeurs de l’Arbre surgit une entité cosmique, incarnation vivante de l’Elden Ring. La Bête d’Elden ne combat pas comme un roi ou un dieu… mais comme une loi universelle cherchant à préserver l’équilibre du monde.
+
+Dans un océan de lumière froide, le Sans-Éclat affronte la dernière épreuve de son voyage. Chaque mouvement semble suspendu hors du temps, comme si le destin lui-même attendait un choix final. Lorsque la créature tombe, le silence revient… et le monde se tient enfin entre les mains de celui que l’on appelait autrefois Sans-Éclat.
+        </p>
+<a href="#top" class="btn-top">⬆ Remonter</a>
+    </section>
+
+    <section class="card-lore" id="choix">
+
+        <div class="images-lore">
+            <img src="">
+        </div>
+
+        <h2>Au Cœur de l’Arbre-Monde — Le Silence Avant le Choix :</h2>
+
+        <p>
+            Lorsque la lumière de la Bête d’Elden s’éteint enfin, le fracas du combat laisse place à un calme irréel. Le Sans-Éclat se retrouve à nouveau au cœur de l’Arbre-Monde, là où tout a commencé et où tous les chemins convergent. Autour de lui, l’or sacré ne brille plus avec la même autorité ; il semble attendre… presque hésiter face à celui qui a défié les dieux.
+
+Les racines gigantesques s’étendent comme les vestiges d’un âge ancien, et l’Elden Ring repose là, fragmenté mais vivant, prêt à être façonné par une volonté nouvelle. Aucun ennemi ne se dresse désormais sur sa route. Il n’y a plus de gardien, plus de roi… seulement un silence chargé de possibilités.
+
+Dans cet instant suspendu, le Sans-Éclat n’est plus un exilé ni un prétendant. Il devient l’arbitre du destin des Terres Intermédiaires. Restaurer l’ordre, suivre les étoiles ou tout consumer — chaque choix trouve son origine ici, au centre d’un monde qui attend sa dernière décision.        </p>
+<a href="#top" class="btn-top">⬆ Remonter</a>
+    </section>
+
+    <section class="card-lore" id="fracture">
+
+        <div class="images-lore">
+            <img src="images/L’Âge de la Fracture.png">
+        </div>
+
+        <h2>L’Âge de la Fracture — Restaurer l’Ordre :</h2>
+
+        <p>
+            Après la chute de la Bête d’Elden, le Sans-Éclat choisit de réparer l’Anneau brisé plutôt que de s’en détourner. En rassemblant les Grandes Runes et en suivant la Grâce jusqu’au bout sans prêter serment à une autre puissance, il restaure l’ordre existant et devient Seigneur d’Elden.
+
+Cette fin représente la voie la plus directe : celle d’un héritier qui accepte la responsabilité du trône. L’Entre-Terre ne change pas radicalement — l’Ordre d’Or continue d’exister, fragile mais stable. Les cycles anciens persistent, et le monde retrouve une forme d’équilibre, même si les fissures laissées par la Fracture ne disparaissent jamais complètement.
+
+Conséquence :
+Le Sans-Éclat règne en roi restaurateur. L’histoire ne s’arrête pas… elle recommence.
+        </p>
+<a href="#top" class="btn-top">⬆ Remonter</a>
+    </section>
+
+        <section class="card-lore" id="age">
+
+        <div class="images-lore">
+            <img src="images/etoiles.webp">
+        </div>
+
+        <h2>L’Âge des Étoiles — Le Pacte de Ranni :</h2>
+
+        <p>
+            Si le Sans-Éclat choisit d’accompagner Ranni jusqu’au bout — en lui apportant la Lame tueuse de doigts, en traversant Nokron, Ainsel et en scellant son pacte sur l’Autel Lunaire — une autre fin devient possible. Au lieu de réparer l’ordre ancien, il invoque Ranni pour instaurer une ère guidée par la lune et les étoiles.
+
+L’Entre-Terre n’est plus gouvernée par la Grâce dorée. Les dieux s’éloignent, laissant le monde évoluer sans leur surveillance directe. Cette fin ne détruit pas le monde… elle le libère lentement d’une influence divine omniprésente.
+
+Conséquence :
+Le Sans-Éclat devient le consort de Ranni, marchant dans une ère froide et mystérieuse où la liberté remplace l’ordre imposé.
+        </p>
+<a href="#top" class="btn-top">⬆ Remonter</a>
+    </section>
+
+        <section class="card-lore" id="exalter">
+
+        <div class="images-lore">
+            <img src="images/thumb_1652091881-1.jpg">
+        </div>
+
+        <h2>Seigneur de la Flamme Frénétique — L’Anéantissement :</h2>
+
+        <p>
+            Une voie plus sombre existe pour ceux qui acceptent la marque des Trois Doigts sous Leyndell. En embrassant la Flamme Frénétique et en refusant de s’en purifier, le Sans-Éclat condamne le monde à une destruction totale. Même la victoire sur Radagon et la Bête d’Elden ne mène pas à une restauration… mais à une apocalypse.
+
+Pour atteindre cette fin, il faut accepter la folie brûlante et rejeter toute tentative de guérison. La flamme consume l’Entre-Terre sans distinction, effaçant les royaumes, les dieux et les cycles eux-mêmes.
+
+Conséquence :
+Le Sans-Éclat devient une incarnation du chaos. L’Entre-Terre cesse d’exister tel qu’il était, remplacé par une mer de feu éternelle.
+        </p>
+<a href="#top" class="btn-top">⬆ Remonter</a>
+    </section>
+
+        <section class="card-lore" id="decision">
+
+<h2>Choisis le Destin des Terres Intermédiaires :</h2>
+
+<p>
+Après un voyage marqué par les dieux, les étoiles et les flammes,
+le Sans-Éclat se tient enfin face à son choix.
+Quelle voie écriras-tu dans l’histoire ?
+</p>
+
+<div class="card-nav">
+<a href="#fracture" class="elden-btn">👑 Restaurer l’Ordre</a>
+<a href="#age" class="elden-btn">🌙 Suivre les Étoiles</a>
+<a href="#exalter" class="elden-btn">🔥 Tout Consumer</a>
+</div>
+
+</section>
+
+<section class="card-lore" id="rencontres-chemin">
+
+<h2>Les Rencontres du Sans-Éclat — Échos d’un Monde Brisé :</h2>
+
+<p>
+Au fil de son voyage à travers les Terres Intermédiaires, le Sans-Éclat ne croise pas uniquement les figures destinées à décider de l’avenir de l’Elden Ring. Sur sa route apparaissent aussi des ennemis liés à l’Ordre d’Or, des héritiers oubliés et des puissances anciennes qui n’appartiennent à aucun destin tracé par la Grâce.
+
+Certains ont rejeté la lumière dorée pour embrasser des forces interdites, transformant leur propre corps en symbole de rébellion contre les dieux. D’autres reposent dans des royaumes suspendus hors du temps, vestiges d’un monde plus ancien que l’Arbre-Monde lui-même. Dans les profondeurs obscures, une présence sanguine observe silencieusement, guidée par un projet dont les conséquences dépassent la guerre des demi-dieux.
+
+Tous ces affrontements ne sont pas essentiels pour atteindre le trône, mais chacun révèle une vérité cachée : l’Entre-Terre est bien plus vaste que la quête imposée par la Grâce. Chaque ennemi rencontré est le reflet d’une idéologie brisée, d’un rêve abandonné ou d’une volonté déformée par la guerre.
+
+Et lorsque le Sans-Éclat avance encore plus loin, au cœur d’un sanctuaire oublié où les racines sacrées touchent le ciel, une guerrière se dresse dans le silence. Une lame parfaite, porteuse d’une malédiction ancienne, prête à tester la détermination de celui qui ose troubler son repos.
+</p>
+<a href="#top" class="btn-top">⬆ Remonter</a>
+</section>
+
+<section class="card-lore" id="seigneur-sang">
+
+<div class="images-lore">
+    <img src="images/mohg-main-sharp-2.webp">
+</div>
+
+<h2>Le Seigneur du Sang — Une Volonté Cachée :</h2>
+
+<p>
+Dans les profondeurs oubliées des Terres Intermédiaires, loin de la lumière de l’Arbre-Monde, le Sans-Éclat découvre un royaume marqué par un culte ancien. Ici, la Grâce n’est plus une bénédiction, mais un souvenir lointain remplacé par une foi sanglante tournée vers une ascension interdite.
+
+Le maître des lieux n’est pas seulement un adversaire puissant. Il poursuit un rêve silencieux : élever un nouvel empyréen capable de changer l’équilibre du monde. Chaque rituel, chaque goutte de sang versée semble préparer l’arrivée d’une ère différente, étrangère à l’Ordre d’Or.
+
+En affrontant cette figure mystérieuse, le Sans-Éclat découvre que la guerre des demi-dieux ne se limite pas à la surface. Des forces cachées attendent leur heure, prêtes à transformer l’avenir des Terres Intermédiaires bien après la chute de l’Elden Ring.
+</p>
+<a href="#top" class="btn-top">⬆ Remonter</a>
+</section>
+
+<section class="card-lore" id="voie-blaspheme">
+
+<div class="images-lore">
+    <img src="images/maxresdefault (1).jpg">
+</div>
+
+<h2>La Voie Blasphématoire — Rejeter les Dieux :</h2>
+
+<p>
+Au cœur d’un manoir abandonné par la Grâce, le Sans-Éclat rencontre une philosophie différente : celle de ceux qui refusent de servir l’Arbre-Monde. Ici, la loyauté envers l’Ordre d’Or est considérée comme une illusion, et la rébellion devient une forme de survie.
+
+Le seigneur qui règne sur ces terres n’a pas cherché à restaurer le monde… mais à le défier ouvertement. En fusionnant avec une puissance ancienne, il transforme son propre corps en symbole de résistance contre les lois divines.
+
+Ce combat révèle une vérité troublante : certains ennemis du Sans-Éclat ne cherchent pas le trône d’Elden. Ils veulent simplement voir l’ordre ancien disparaître, quitte à devenir eux-mêmes des monstres.
+</p>
+<a href="#top" class="btn-top">⬆ Remonter</a>
+</section>
+
+<section class="card-lore" id="dragon-ancien">
+
+<div class="images-lore">
+    <img src="images/pla.webp">
+</div>
+
+<h2>Le Seigneur Dragon Ancien — Avant l’Arbre-Monde :</h2>
+
+<p>
+Au cœur d’une tempête suspendue hors du temps, le Sans-Éclat découvre les vestiges d’un âge bien plus ancien que celui de l’Ordre d’Or. Ici, les lois divines semblent fragiles, comme si l’histoire elle-même refusait de disparaître.
+
+Un ancien souverain dragon repose dans les ruines, témoin silencieux d’un monde où les dieux actuels n’existaient pas encore. Son réveil transforme le combat en un duel contre la mémoire du passé, rappelant que l’Erdtree n’est peut-être qu’une étape parmi d’autres dans l’histoire des Terres Intermédiaires.
+
+En triomphant, le Sans-Éclat ne gagne pas seulement une victoire… mais une vision d’un monde oublié, antérieur à toute grâce dorée.
+</p>
+
+<a href="#top" class="btn-top">⬆ Remonter</a>
+</section>
+
+<section class="card-lore" id="malenia">
+
+    <div class="images-lore">
+        <img src="images/malenia.jpg">
+    </div>
+
+    <h2>Malenia, Lame de Miquella — La Fleur Écarlate :</h2>
+
+<p>
+Bien après la chute des dieux et le choix d’une nouvelle ère, une légende continue de murmurer dans les profondeurs de l’Entre-Terre. Au-delà des chemins principaux, dissimulé derrière des racines sacrées et des royaumes oubliés, s’étend l’Arbre Sacré de Miquella — un sanctuaire brisé où la guerre n’a jamais vraiment pris fin.
+
+En traversant Elphael, bastion abandonné des fidèles de Miquella, le Sans-Éclat découvre les traces d’un combat ancien. La pourriture écarlate y a laissé son empreinte, transformant la beauté sacrée du lieu en un royaume fragile suspendu entre vie et déclin. Chaque pas semble résonner comme un souvenir d’une bataille qui refuse de disparaître.
+
+Au cœur de cette cité silencieuse repose une guerrière légendaire, lame parfaite guidée par une volonté inébranlable. Lorsque le Sans-Éclat s’approche, elle se relève lentement, sa présence imposant un silence presque sacré. Le combat qui suit dépasse toute épreuve rencontrée auparavant : une danse mortelle où chaque mouvement exige précision, patience et détermination.
+
+Mais lorsque sa première forme tombe, la vérité éclate. La guerrière abandonne son titre pour devenir une incarnation vivante de la Putréfaction Écarlate, libérant une puissance capable de transformer la beauté sacrée en champ de bataille vivant. Le sol s’ouvre sous une lumière rouge funeste, et l’affrontement devient une épreuve où seule la persévérance peut triompher.
+
+En triomphant, le Sans-Éclat ne gagne ni trône ni rune nécessaire. Il obtient seulement le respect d’une légende ancienne. Car certains combats ne servent pas le destin… ils existent pour rappeler jusqu’où peut aller la volonté de ceux qui refusent de céder face à l’inévitable.
+</p>
+<a href="#top" class="btn-top">⬆ Remonter</a>
+</section> 
+</main>
+
+<footer class="site-footer">
+
+<div class="footer-links">
+
+<a href="https://mail.google.com/mail/?view=cm&to=Project.contact223@gmail.com"
+class="elden-btn"
+target="_blank">
+✉️ Gmail
+</a>
+
+<a href="mentions.html" class="elden-btn">
+📜 Mentions légales
+</a>
+
+</div>
+
+<p>© 2026 — Sans-Éclat Studios</p>
+
+</footer>
+
+
+<script src="elden.js"></script>
+</body>
+</html>
